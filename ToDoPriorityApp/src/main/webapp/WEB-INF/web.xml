@@ -1,0 +1,14 @@
+<web-app>
+  <servlet>
+    <servlet-name>TaskServlet</servlet-name>
+    <servlet-class>com.todo.controller.TaskServlet</servlet-class>
+  </servlet>
+<welcome-file-list>
+    <welcome-file>TaskServlet</welcome-file>
+</welcome-file-list>
+
+  <servlet-mapping>
+    <servlet-name>TaskServlet</servlet-name>
+    <url-pattern>/TaskServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
